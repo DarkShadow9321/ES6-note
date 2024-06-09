@@ -58,7 +58,7 @@ function logAll() {
         })
 }
 logAll()
-Promises的做法則較為整齊也較容易理解。
+//Promises的做法則較為整齊也較容易理解。
 function logAll() {
     logWord('A')
         .then(() => logWord('B'))
