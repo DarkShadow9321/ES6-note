@@ -2,7 +2,7 @@
 Async = 非同步 、 sync = 同步
 Async 執行後會馬上會下一個指令，例如:click, AJAX, Setlnterval
 解決方法: callback,promises, async await
-舉例來說callback的行為當典籍按鈕後，會執行某個function。
+舉例來說callback的行為當點擊按鈕後，會執行某個function。
 Promises 是屬於ES6的一部分，會return resolve or reject，Promise物件一實體化後會固定住狀態，不是顯示"已實現"就是"已拒絕"
 sync則需要等第一個執行完後才可執行下一個
 ```
