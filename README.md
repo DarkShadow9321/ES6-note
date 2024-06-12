@@ -8,7 +8,7 @@ sync則需要等第一個執行完後才可執行下一個
 ```
 ```js
 function logWord(word) {
-    setTimeout(function () {  //設置一個延遲，延遲的時間是1到100之間的隨機毫秒數。當延遲時間過後，函數會執行並打印輸入的word。
+    setTimeout(function () {  //設置一個延遲，延遲的時間是1到100之間的隨機毫秒數。
         console.log(word)
     }, Math.floor(Math.random() * 100) + 1 //從1~100隨機生成一個數(Math.floor浮點數向下取整數，如:45.6是取45)
         // return value between 1 ~ 100
